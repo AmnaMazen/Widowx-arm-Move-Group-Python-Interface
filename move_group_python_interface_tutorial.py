@@ -62,7 +62,7 @@ group.go(joint_goal, wait=True)
 
 # Calling ``stop()`` ensures that there is no residual movement
 group.stop()
-group.clear_pose_targets()
+
 
 # Make default position
 rospy.sleep(2);
@@ -81,7 +81,7 @@ group.go(joint_goal, wait=True)
 
 # Calling ``stop()`` ensures that there is no residual movement
 group.stop()
-group.clear_pose_targets()
+
 
 # Give command to open gripper
 
@@ -101,4 +101,4 @@ group2.go(joint_goal2, wait=True)
 
 # Calling ``stop()`` ensures that there is no residual movement
 group2.stop()
-group2.clear_pose_targets()
+
