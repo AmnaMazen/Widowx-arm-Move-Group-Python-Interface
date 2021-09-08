@@ -60,15 +60,6 @@ $ cd ..
 
 $ catkin_make
 
-# Planning for a goal
-
-1) Planning to a Joint Goal: in this method, we get the joint values from the group and adjust some of the values.
-2) Planning to a Pose Goal:We can plan a motion for this group to a desired pose for the end-effector
-3) Cartesian Paths: You can plan a Cartesian path directly by specifying a list of waypoints for the end-effector to go through
-
-
-* In this file, two joint goals are given for "widowx_arm" group and one joint goal for "widowx_gripper" group to open the gripper.
-
 
 # Launch widowx moveit package:
 
@@ -88,3 +79,12 @@ $ roslaunch widowx_arm_bringup arm_moveit.launch sim:=false sr300:=false
 # Run move_group_python_interface_tutorial node
 
 $ rosrun move_group_python_interface move_group_python_interface_tutorial.py
+
+# Planning for a goal
+
+1) Planning to a Joint Goal: in this method, we get the joint values from the group and adjust some of the values.
+2) Planning to a Pose Goal:We can plan a motion for this group to a desired pose for the end-effector
+3) Cartesian Paths: You can plan a Cartesian path directly by specifying a list of waypoints for the end-effector to go through
+
+
+* In this file, two joint goals are given for "widowx_arm" group and one joint goal for "widowx_gripper" group to open the gripper.
