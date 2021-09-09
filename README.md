@@ -1,4 +1,4 @@
-# Widowx-arm-Move-Group-Python-Interface
+# Sequence-Of-Goals-Widowx-arm-With-MoveIt
 
 Author name: Amna Mazen Ali
 
