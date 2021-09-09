@@ -2,7 +2,9 @@
 
 Author name: Amna Mazen Ali
 
-In this tutorial I will show you step by step how to  give a series of joint goals for widowx arm using Move Group Python Interface
+In this tutorial I will show you step by step how to  give a series of joint goals for widowx arm using Move Group Python Interface.
+
+I uploded a video about step by step tutorial on Youtube:https://www.youtube.com/watch?v=bc6IAajklT8&t=126s
 
 
 The simplest way to use MoveIt through scripting is using the move_group_interface. This interface is ideal for beginners and provides unified access to many of the features of MoveIt.
